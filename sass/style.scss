@@ -1,1 +1,40 @@
+$hlinks: #1E88E5;
+$links: #252525;
+$text: white;
+$back: #F2FAFA;
+;
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap);
 @import '_header.scss';
+@import '_find.scss';
+@import '_latest-work.scss';
+@import '_footer.scss';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', serif, 'Courier New', Courier, monospace;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1521px;
+    padding: 0 calc((1521px - 1295px) / 2);
+    margin: 0 auto;
+    // position: relative;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 98px;
+    letter-spacing: 0em;
+    max-width: 631px;
+    margin-bottom: 17px;
+}
